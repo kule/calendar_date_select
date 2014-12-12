@@ -48,6 +48,11 @@ module CalendarDateSelect
       :date => "%Y-%m-%d",
       :time => " %H:%M",
       :javascript_include => "format_db"
+    },
+    :british => {
+      :date => "%d/%b/%Y",
+      :time => " %H:%M",
+      :javascript_include => "format_british"
     }
   }
 
